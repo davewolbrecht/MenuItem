@@ -13,7 +13,7 @@
   <tr *ngFor="let item of menuItems">
     <td>{{item.item}}</td>
     <td>{{item.category}}</td>
-    <td>{{item.price}}</td>
+    <td>{{item.price | currency}}</td>
   </tr>
   
 </table>
